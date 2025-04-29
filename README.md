@@ -91,7 +91,7 @@ To set up some recommended extensions for osTicket, open up PHP Manager within I
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/fd4d5915-1437-419d-9a8e-c3cc5d113658)
+<img src="https://github.com/user-attachments/assets/fd4d5915-1437-419d-9a8e-c3cc5d113658" width="50%"/>
 <p>
   Finally, fill in the info for your Helpdesk, as well as the Admin user. Make sure your Helpdesk email and Admin User email are different, then under Database Settings enter the information for the Database you created (it should be named osTicket).
 </p>
