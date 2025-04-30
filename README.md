@@ -26,7 +26,7 @@ This demonstration outlines the prerequisites and installation of the open-sourc
 - Enable IIS
 - Install Visual C++ Redistributable
 - Install IIS URL Rewrite Module
-- Install PHP Manager
+- Install PHP
 - Install SQL server (MySQL) + SQL UI (HeidiSQL)
 - Install osTicket Files
 - Add osTicket Extensions
@@ -42,6 +42,7 @@ We will start by creating a Windows 10 OS virtual machine in Microsoft Azure, cr
 </p>
 <br />
 
+<h2>Enable IIS</h2>
 <p>
 <img src="https://github.com/user-attachments/assets/e21d1193-6e8a-498a-a270-d83e4dca4da8" height="25%" alt="Disk Sanitization Steps"/>
 </p>
@@ -50,6 +51,7 @@ The first thing to do within the VM is to enable IIS (Internet Information Servi
 </p>
 <br />
 
+<h2>Install Visual C++ Redist + Rewrite Module</h2>
 <p>
 <img src="https://github.com/user-attachments/assets/11dea6bf-2de4-404c-9243-6428d65a7b6f" height="30%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/user-attachments/assets/d8d6395e-c711-4abd-9f50-400c39efa295" height="30%" alt="Disk Sanitization Steps"/>
@@ -59,6 +61,7 @@ Next, we need to install Visual C++ Redistributable and IIS URL Rewrite Module. 
 </p>
 <br />
 
+<h2>Install PHP</h2>
 <p>
 <img src="https://github.com/user-attachments/assets/7799c676-cfe9-4317-9280-fcf7fb581f39" height="25%" alt="Disk Sanitization Steps"/>
 </p>
@@ -67,6 +70,7 @@ We will need to install PHP for Windows in order to be able to configure PHP Ext
 </p>
 <br />
 
+<h2>Install SQL server (MySQL) + SQL UI (HeidiSQL)</h2>
 <p>
 <img src="https://github.com/user-attachments/assets/90f4c732-b754-41a4-b13b-24bd9117ff57" width="49%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/user-attachments/assets/70ba7f90-c76b-4294-b24b-35e0c9192be5" width="49%" alt="Disk Sanitization Steps"/>
@@ -76,6 +80,7 @@ Before installing osTicket, it is best to already have an SQL server and UI inst
 </p>
 <br />
 
+<h2>Install osTicket Files</h2>
 <p>
 <img src="https://github.com/user-attachments/assets/0e3dca5a-23d9-470e-ad96-824b14ff2ea0" height="25%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/user-attachments/assets/9819572f-ff3d-4d67-a8da-b90923512a05" height="25%" alt="Disk Sanitization Steps"/>
@@ -85,12 +90,14 @@ Now we are installing osTicket. To do this, open C: > inetput > wwwroot, then in
 </p>
 <br />
 
+<h2>Add osTicket Extensions</h2>
 ![image](https://github.com/user-attachments/assets/481bddc2-6592-494c-8aa7-4ab0a44ee587)
 <p>
 To set up some recommended extensions for osTicket, open up PHP Manager within IIS Manager, select Enable or disable an extension under PHP Extensions, and enable, php_imap.dll, php_intl.dll, and php_opcache.dll, then refresh the browser and click continue on osTicket.
 </p>
 <br />
 
+<h2>Setup osTicket Helpdesk and Connect it to MySQL</h2>
 <img src="https://github.com/user-attachments/assets/fd4d5915-1437-419d-9a8e-c3cc5d113658" width="50%"/>
 <p>
   Finally, fill in the info for your Helpdesk, as well as the Admin user. Make sure your Helpdesk email and Admin User email are different, then under Database Settings enter the information for the Database you created (it should be named osTicket).
