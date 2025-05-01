@@ -91,7 +91,7 @@ Now we are installing osTicket. To do this, open C: > inetput > wwwroot, then in
 <br />
 
 <h2>Add osTicket Extensions</h2>
-![image](https://github.com/user-attachments/assets/481bddc2-6592-494c-8aa7-4ab0a44ee587)
+<img src="https://github.com/user-attachments/assets/481bddc2-6592-494c-8aa7-4ab0a44ee587" width="90%"/>
 <p>
 To set up some recommended extensions for osTicket, open up PHP Manager within IIS Manager, select Enable or disable an extension under PHP Extensions, and enable, php_imap.dll, php_intl.dll, and php_opcache.dll, then refresh the browser and click continue on osTicket.
 </p>
